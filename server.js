@@ -9,7 +9,7 @@ app.use(cors())
 
 // Replace with your MongoDB connection string
 const mongoURI =
-   'mongodb+srv://arcs_mr:3j4J3ODJcqwpLxsH@blogpost.wk7xf.mongodb.net/BlogPost?retryWrites=true&w=majority&appName=BlogPost'
+   'Replace your string'
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 const postSchema = new mongoose.Schema({
